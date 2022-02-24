@@ -1,1 +1,20 @@
+.grid {
+    display: flex;
+    flex-flow: row; 
+    flex-wrap: wrap;
+}
+.grid-cell {
+    flex: 1;
+}
 
+.grid--right {
+    justify-content: flex-end;
+}
+  
+.grid--center {
+    justify-content: center;
+}
+
+.grid--center {
+    align-items: center;
+}
